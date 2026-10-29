@@ -1,0 +1,97 @@
+{
+    {
+        "id": 1,
+        "orderId": "e123456",
+        "customerEmail": "customer1@example.com",
+        "item": "Product A",
+        "amount": 100,
+        "status": "refund request",
+        "orderDate": "2024-06-01"
+    },
+    {
+        "id": 2,
+        "orderId": "e123457",
+        "customerEmail": "customer2@example.com",
+        "item": "Product B",
+        "amount": 500,
+        "status": "order status",
+        "orderDate": "2024-06-02"
+    },
+    {
+        "id": 3,
+        "orderId": "e123458",
+        "customerEmail": "customer3@example.com",
+        "item": "Product C",
+        "amount": 1500,
+        "status": "product complaint",
+        "orderDate": "2024-06-03"
+    },
+    {
+        "id": 4,
+        "orderId": "e123459",
+        "customerEmail": "customer4@example.com",
+        "item": "Product D",
+        "amount": 250,  
+        "status": "account/login issue",
+        "orderDate": "2024-06-04"
+    },
+    {
+        "id": 5,
+        "orderId": "e123460",
+        "customerEmail": "customer5@example.com",
+        "item": "Product E",
+        "amount": 3000,
+        "status": "other",
+        "orderDate": "2024-06-05"
+    },
+    {
+        "id": 6,
+        "orderId": "e123461",
+        "customerEmail": "customer6@example.com",
+        "item": "Product F",
+        "amount": 3500,
+        "status": "refund request",
+        "orderDate": "2024-06-06"
+    },
+    {
+        "id": 7,
+        "orderId": "e123462",
+        "customerEmail": "customer7@example.com",
+        "item": "Product G",
+        "amount": 400,
+        "status": "order status",
+        "orderDate": "2024-06-07"
+    },
+    {
+        "id": 8,
+        "orderId": "e123463",
+        "customerEmail": "customer8@example.com",
+        "item": "Product H",
+        "amount": 450,
+        "status": "product complaint",
+        "orderDate": "2024-06-08"
+    },
+    {
+        "id": 9,
+        "orderId": "e123464",
+        "customerEmail": "customer9@example.com",
+        "item": "Product I",
+        "amount": 50`00,
+        "status": "account/login issue",
+        "orderDate": "2024-06-09"
+    },
+    {
+        "id": 10,
+        "orderId": "e123465",
+        "customerEmail": "customer10@example.com",
+        "item": "Product J",
+        "amount": 5500,
+        "status": "other",
+        "orderDate": "2024-06-10"
+    }
+}
+
+// id,  order ID, customer email, item, amount, status, and order date.
+// Classify the email as one of five categories: 
+// refund request, order status, 
+// product complaint, account/login issue, or other.
